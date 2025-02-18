@@ -12,7 +12,7 @@ It includes scripts for training, fine-tuning, dataset management, and real-time
  ├── example_usage.py        # Example script to test spam classification
  ├── dataset_updater.py      # Merge old and new datasets to maintain a complete training dataset
  ├── finetuner.py            # Fine-tune the existing model with new data
- ├── bert_spam_model.keras   # Trained BERT model for spam detection
+ ├── bert_spam_model.keras   # Trained BERT model for spam detection (Generated with trainer.py)
  ├── mail_data.csv           # Dataset containing spam/ham messages
  ├── new_data.csv            # New dataset used for fine-tuning
  ├── updated_mail_data.csv   # Merged dataset after running dataset_updater.py
